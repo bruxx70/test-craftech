@@ -1,4 +1,3 @@
-- # Imagen base de Node.js
 FROM node:18
 
 # Configurar el directorio de trabajo
