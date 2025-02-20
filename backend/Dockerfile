@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 8000
 
 # Comando para ejecutar el servidor de Django
-CMD ["gunicorn", "-b", "0.0.0.0:8000", "myproject.wsgi:application"]
+CMD ["gunicorn", "-b", "0.0.0.0:8000", "api-server-django.wsgi:application"]
